@@ -1,0 +1,23 @@
+.Pages {
+  width: 100%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 100px;
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+
+
+  } 
+
+  .Active {
+    background-color: black;
+    color: #fff;
+  }
+}

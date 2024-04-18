@@ -95,6 +95,32 @@ export default function about({ session }) {
 
         <div className={styles.CardAbout}>
           <img
+            src="/images/ca.jpg"
+            alt="Carlo Salamone"
+            className={styles.ProfileAbout}
+          />
+          <div className={styles.TextArea}>
+            <h3>Carlo Salamone</h3>
+            <h4>Jr Full Stack Developer</h4>
+            <p>
+              Sono sempre stato attratto dal mondo dell'informatica e della
+              programmazione. Grazie al viaggio compiuto nel coding bootcamp di
+              Edgemony sono finamlente riuscito ad acquisire i mezzi e le
+              conoscenze per poterne far parte.
+            </p>
+          </div>
+          <div className={styles.Social}>
+            <Link href="https://github.com/CarloSalamone">
+              <img src="/github-logo.png" alt="github logo" />
+            </Link>
+            <Link href="https://www.linkedin.com/in/carlo-salamone-78b142295/">
+              <img src="/linkedin-logo.jpg" alt="linkedin logo" />
+            </Link>
+          </div>
+        </div>
+
+        <div className={styles.CardAbout}>
+          <img
             src="/images/gn.jpg"
             alt="Giuseppe Nicotra"
             className={styles.ProfileAbout}
